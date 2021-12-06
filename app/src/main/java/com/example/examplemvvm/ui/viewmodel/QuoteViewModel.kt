@@ -1,9 +1,9 @@
-package com.example.examplemvvm.viewmodel
+package com.example.examplemvvm.ui.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.examplemvvm.model.QuoteModel
-import com.example.examplemvvm.model.QuoteProvider
+import com.example.examplemvvm.data.model.QuoteModel
+import com.example.examplemvvm.data.model.QuoteProvider
 
 class QuoteViewModel : ViewModel() {
     //Permite suscribirnos a los cambios de QuoteModel
